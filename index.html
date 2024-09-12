@@ -248,12 +248,12 @@
         position: absolute;
         left: 0;
         width: 100%;
-       
+        margin-top: -30%;
       }
 
       #white_top2 {
-        position: absolute;
-        top: 10%;
+        position: relative;
+        margin-top: 20%;
         display: flex;
         /* Use flexbox layout */
         flex-direction: column;
@@ -268,22 +268,18 @@
 
       #og_bg {
         position: relative;
-        margin-top: -18%;
+        margin-top: -5%;
       }
 
       #og_left {
         position: absolute;
         top: 10%;
         display: flex;
-        /* Use flexbox layout */
         flex-direction: column;
         justify-content: center;
-        /* Center items horizontally */
         align-items: center;
-        /* Center items vertically */
         gap: 10px;
         width: 100%;
-        /* Adjust width as needed */
       }
 
       #og_p {
@@ -327,15 +323,16 @@
         font-weight: 600;
         font-size: 3vm;
       }
-      #end_sec {
+      #end_bg {
         position: absolute;
-        margin-top: -20%;
+        left:0;
+        margin-top: -18%;
         justify-content: center;
         /* Center items horizontally */
         align-items: center;
       }
       .end_bg_left {
-        position: absolute;
+        position: relative;
         top: 40%;
         display: flex;
         /* Use flexbox layout */
@@ -430,7 +427,12 @@
         />
 
         <div id="white_top">
-          <img src="assets/BLUEDOT.svg" width="3%" alt="BLUEDOT" />
+          <img
+            id="blue_dot_in_white"
+            src="assets/BLUEDOT.svg"
+            width="3%"
+            alt="BLUEDOT"
+          />
           <img
             src="assets/TEXTMEETPARENTS.svg"
             width="50%"
@@ -547,52 +549,6 @@
         </div>
       </div>
 
-      <!-- <div id="og_bg">
-        <img src="assets/BGRED.svg" width="100%" alt="BGRED.svg" />
-
-        <div id="og_left">
-          <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
-          <img src="assets/FAQS.png" width="50%" alt="FAQS.png" />
-          <div id="og_p">
-            <h1>How can I buy a puppy?</h1>
-            <p>
-              Please email us at oneyejack51@gmail.com to inquire and include
-              your phone number in your message. we will give you a call to
-              discuss the litter and answer any questions. From there, we
-              require a $250 deposit to reserve a puppy. We can also arrange a
-              date and time for you pick up your new puppy once they are 8-12
-              weeks old (mid-November to mid-December).
-            </p>
-
-            <h1>How much does a puppy cost?</h1>
-            <p>
-              We are asking $1,800. We require a $250 deposit to reserve a puppy
-            </p>
-            <h1>What forms of payment do you accept?</h1>
-            <p>Money order or cash.</p>
-
-            <h1>Will the puppies be vaccinated?</h1>
-
-            <p>
-              The price includes all veterinarian care through 8-12 weeks when
-              they will be old enough to go home with you. The puppies will
-              receive all vaccinations through then.
-            </p>
-
-            <h1>Are the dogs AKC certified?</h1>
-            <p>
-              Yes, we will share all their paperwork with you when you pick them
-              up.
-            </p>
-          </div>
-
-          <img src="assets/WHITEDOT.svg" width="3%" alt="WHITEDOT" />
-        </div>
-      </div> -->
-
-      <!-- 
-     
-
       <div id="og_bg">
         <img src="assets/BGRED.svg" width="100%" alt="BGRED.svg" />
 
@@ -675,7 +631,7 @@
             <p></p>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
   </body>
 </html>
